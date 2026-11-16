@@ -1,5 +1,13 @@
 # @read-frog/extension
 
+## 1.60.1
+
+### Patch Changes
+
+- [#2522](https://github.com/mengxi-ream/read-frog/pull/2522) [`a1528fd`](https://github.com/mengxi-ream/read-frog/commit/a1528fd9cb5b1bb3bb66771c76b5e2501ef44ce8) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - feat(ui): name what the floating button and selection toolbar × menus hide, and let them hide until the page reloads
+
+- [#2520](https://github.com/mengxi-ream/read-frog/pull/2520) [`6ff4779`](https://github.com/mengxi-ream/read-frog/commit/6ff4779760740ccc556612db044b6d839481b034) Thanks [@mengxi-ream](https://github.com/mengxi-ream)! - fix(subtitles): keep video subtitles off on sites where Read Frog is disabled. "Disable on this site" and the site list now apply to subtitles too, including a video embedded in a disabled page; in whitelist mode, subtitles only run on the listed sites, including in videos those pages embed from other sites. Video sites no longer load the subtitle code at all while subtitles are switched off or the site is disabled
+
 ## 1.60.0
 
 ### Minor Changes
